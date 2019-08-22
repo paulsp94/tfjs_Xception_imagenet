@@ -1,6 +1,8 @@
 # Xception TFJS
 
-The Xception model pretrained on imagenet for TensorFlow.js as a layers model.
+The Xception model pretrained on imagenet for TensorFlow.js as a layers model.   
+On ImageNet, this model gets to a top-1 validation accuracy of 0.790 and a top-5 validation accuracy of 0.945.   
+The default input size for this model is 299x299.   
 
 This model has been converted, using the [tfjs-converter][1].  
 The base model and weights were taken from [keras][2].
